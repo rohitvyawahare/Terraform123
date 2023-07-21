@@ -4,3 +4,6 @@ output "firstoutputblock" {
 output "secondoutputblock" {
         value = "this is my second output block"
 }
+output "third block"
+        value = "this is my third block"
+}
