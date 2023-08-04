@@ -1,3 +1,10 @@
 output printfirst {
-        value = "${join("--->",var.users)}"
+	value = "${join("-->",var.users)}"
 }
+output helloworldupper {
+	value = "${upper(var.users[0])}"
+}
+output lowerletter {
+	value = "${lower(var.users[1])}"
+}
+
